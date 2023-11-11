@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+        <link rel="stylesheet"  type="text/css" href="style.css"/>
+        <script src="script.js" defer></script>
+    </head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <body>
+      <div class="card">
+        <form id="form">
+            <input
+                type="text"
+                id="search"
+                placeholder="Search by location"
+                autocomplete="off"
+            />
+        </form>
+        <main id="main"></main>
+        </div>
+<div id="weather-container">
+        <h1>Weather Information</h1>
+        <canvas id="weather-chart" style="width:100%,max-width:600px"></canvas>
+    </div>
+    </body>
+</html>
