@@ -1,4 +1,4 @@
-const apikey = "d488d06e7b475834dcad09fdfe7983f7";
+const apikey = "include API key here";
 
 const main = document.getElementById("main");
 const form = document.getElementById("form");
@@ -87,4 +87,3 @@ form.addEventListener("submit", (e) => {
     getWeatherByLocation(city);
   }
 });
-
