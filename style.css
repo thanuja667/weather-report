@@ -18,10 +18,10 @@ body {
 }
 
 input {
-  background-color: #575757;
+  background-color: #a0ced9;
   border: none;
   border-radius: 25px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(192, 192, 192, 0.3);
   font-family: inherit;
   font-size: 1rem;
   padding: 1rem;
@@ -31,7 +31,7 @@ input {
 }
 
 input#search:hover {
-  background: #65747b;
+  background: #7A007A;
 }
 
 input:focus {
@@ -72,12 +72,12 @@ input:focus {
 }
 
 #weather-container {
-    background-color: #fff;
+    background-color: #000000;
     padding: 20px;
     border-radius: 5px;
     margin: 20px auto;
     width: 80%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 h1 {
