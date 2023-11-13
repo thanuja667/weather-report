@@ -31,8 +31,8 @@ const ctx = document.getElementById('weather-chart').getContext('2d');
             datasets: [{
                 label: 'Weather Info',
                 data: [temp, humidity],
-                backgroundColor: ['rgba(75, 192, 192, 0.2)', 'rgba(255, 99, 132, 0.2)'],
-                borderColor: ['rgba(75, 192, 192, 1)', 'rgba(255, 99, 132, 1)'],
+                backgroundColor: ['rgba(225, 0, 0, 0.3)', 'rgba(0, 225, 0, 0.3)'],
+                borderColor: ['rgba(0, 0, 225, 0.3)', 'rgba(192, 192, 192, 0.3)'],
                 borderWidth: 1
             }]
         },
