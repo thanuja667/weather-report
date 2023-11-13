@@ -23,7 +23,7 @@ function addWeatherToPage(data) {
 
 
 
-const ctx = document.getElementById('weather-chart').getContext('3d');
+const ctx = document.getElementById('weather-chart').getContext('2d');
     new Chart(ctx, {
         type: 'line',
         data: {
