@@ -18,7 +18,7 @@ body {
 }
 
 input {
-  background-color: #575757;
+  background-color: #FF9955;
   border: none;
   border-radius: 25px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -31,7 +31,7 @@ input {
 }
 
 input#search:hover {
-  background: #65747b;
+  background: #ADD8E6;
 }
 
 input:focus {
